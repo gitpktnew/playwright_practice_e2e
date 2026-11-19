@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "base_url": "https://example.com",
+    "api_url": "https://example.com",
+    "api_timeout": 45
+  },
+  "staging": {
+    "base_url": "https://example.com",
+    "api_url": "https://example.com",
+    "api_timeout": 30
+  },
+  "qa": {
+    "base_url": "https://example.com",
+    "api_url": "https://example.com",
+    "api_timeout": 30
+  }
+}
