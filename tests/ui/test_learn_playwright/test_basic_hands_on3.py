@@ -5,7 +5,8 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 @pytest.fixture(scope="session")
 def get_bowser():
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=False, slow_mo=1000)
+        # browser = playwright.chromium.launch(headless=False, slow_mo=1000)
+        browser = playwright.chromium.launch(headless=True)
         yield browser
         browser.close()
 
